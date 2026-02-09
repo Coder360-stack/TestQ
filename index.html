@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Quotes - Share the Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💕 Love Quotes Collection</h1>
+            <p class="subtitle">Spread love, one quote at a time</p>
+        </header>
+        
+        <div class="quote-card">
+            <div class="quote-icon">❤️</div>
+            <p class="quote-text" id="quoteText">Loading...</p>
+            <p class="quote-author" id="quoteAuthor">- Author</p>
+            
+            <div class="like-section">
+                <button class="like-btn" id="likeBtn">
+                    <span class="heart-icon" id="heartIcon">🤍</span>
+                    <span class="like-count" id="likeCount">0</span>
+                </button>
+                <p class="like-text">Likes</p>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn" id="nextQuoteBtn">
+                    <span>Next Quote</span>
+                    <span class="btn-icon">→</span>
+                </button>
+                <button class="btn btn-secondary" id="copyBtn">
+                    <span>Copy</span>
+                    <span class="btn-icon">📋</span>
+                </button>
+                <button class="btn btn-secondary" id="shareBtn">
+                    <span>Share</span>
+                    <span class="btn-icon">📤</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="totalQuotes">0</span>
+                <span class="stat-label">Total Quotes</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="totalLikes">0</span>
+                <span class="stat-label">Total Likes Given</span>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Made with ❤️ for love quotes lovers</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
